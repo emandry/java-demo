@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Nisum Demo App</title>
+    <style>
+        body,tr,td { font-family: Arial; font-size: 13px; }
+        
+        .txt { font-family: Arial; font-size: 13px; }
+        
+        .btn {
+          background: #3498db;
+          background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+          background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+          background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+          background-image: -o-linear-gradient(top, #3498db, #2980b9);
+          background-image: linear-gradient(to bottom, #3498db, #2980b9);
+          -webkit-border-radius: 28;
+          -moz-border-radius: 28;
+          border-radius: 28px;
+          font-family: Arial;
+          color: #ffffff;
+          font-size: 12px;
+          padding: 10px 20px 10px 20px;
+          text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+<p>Welcome to the Rectangle calculator</p>
+<form name="rectangle" method="POST" action="rectangle">
+    <table cellpadding="1" cellspacing="1" border="1">
+        <tr>
+            <td>Width:</td>
+            <td><input type="text" name="width" value="0" class="txt"></td>
+        </tr>
+        <tr>
+            <td>Length:</td>
+            <td><input type="text" name="length" value="0" class="txt"></td>
+        </tr>
+    </table>
+<p align="center"><input type="submit" class="btn" value="Calculate Now!"/></p>
+</form>
+
+</body>
+</html>
