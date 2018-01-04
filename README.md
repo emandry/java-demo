@@ -2,6 +2,8 @@
 
 This is a simple WebProject with SpringBoot and Gradle that gets a WebPage to calculate the perimeter and area of a rectangle.
 
+THIS BRANCH HAVE AND ERROR FOR DEMO PURPOSES
+
 ## How to build it
 
 `./gradlew build`
