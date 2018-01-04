@@ -20,12 +20,12 @@ public class RectangleTest {
 
   @Test
   public void testLength() {
-    assertEquals(myRectangle.length, 5);
+    assertEquals(myRectangle.length, 6);
   }
 
   @Test
   public void testWidth() {
-    assertEquals(myRectangle.width, 6);
+    assertEquals(myRectangle.width, 7);
   }
 }
 
