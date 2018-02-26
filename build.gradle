@@ -9,7 +9,9 @@ buildscript {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
 	}
 }
-
+plugins {
+  id "org.sonarqube" version "2.6.2"
+}
 apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'org.springframework.boot'
@@ -18,9 +20,7 @@ apply plugin: 'war'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
-plugins {
-  id "org.sonarqube" version "2.6.2"
-}
+
 
 repositories {
 	mavenCentral()
